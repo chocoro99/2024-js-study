@@ -30,3 +30,12 @@ console.log("hello" + myName2);
 
 myName2 = "nicolas";
 console.log("youre new name is" + myName2);
+
+// Boolean
+const amIFat = false;
+console.log(amIFat);
+
+// null, undefined
+let blank = null;
+let something;
+console.log(something, blank);
