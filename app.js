@@ -78,3 +78,10 @@ player.fat = false;
 console.log(player);
 player.lastName = "potato";
 console.log(player);
+
+// function
+function sayHello() {
+  console.log("Hello");
+  console.log("Hello my name is C");
+}
+sayHello();
