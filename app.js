@@ -85,3 +85,30 @@ function sayHello() {
   console.log("Hello my name is C");
 }
 sayHello();
+
+// function2
+function sayHello2(nameOfPerson, age) {
+  console.log("Hello my name is" + nameOfPerson + " and I'm " + age);
+}
+sayHello2("nico", 10);
+sayHello2("dal", 23);
+sayHello2("lynn", 21);
+
+function plus(firstNumber, secondNumber) {
+  console.log(firstNumber + secondNumber);
+}
+function divide(a, b) {
+  console.log(a / b);
+}
+
+plus(8, 60);
+divide(98, 20);
+
+const newPlayer = {
+  name: "nico",
+  sayHello3: function (otherPersonsName) {
+    console.log("hello " + otherPersonsName + " nice to meet you");
+  },
+};
+console.log(newPlayer.name);
+newPlayer.sayHello3("lynn");
