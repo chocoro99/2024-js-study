@@ -112,3 +112,28 @@ const newPlayer = {
 };
 console.log(newPlayer.name);
 newPlayer.sayHello3("lynn");
+
+// return
+const calculator = {
+  plus: function (a, b) {
+    return a + b;
+  },
+  minus: function (a, b) {
+    return a - b;
+  },
+  times: function (a, b) {
+    return a * b;
+  },
+  divide: function (a, b) {
+    return a / b;
+  },
+  power: function (a, b) {
+    return a ** b;
+  },
+};
+
+const plusResult = calculator.plus(2, 3);
+const minusResult = calculator.plus(plusResult, 10);
+const timesResult = calculator.plus(10, minusResult);
+const divideResult = calculator.plus(timesResult, plusResult);
+const powerResult = calculator.plus(divideResult, minusResult);
